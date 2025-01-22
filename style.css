@@ -1,0 +1,18 @@
+.navbar {
+    background-color: #eca36c;
+}
+
+.navbar-nav .nav-link {
+    color: #966c80 !important;
+}
+
+/* Para links ativos/hover */
+    .navbar-nav .nav-link:hover,
+    .navbar-nav .nav-link.active {
+    color: white !important;
+}
+
+/* Para o brand/logo */
+.navbar-brand {
+    color: #966c80 !important;
+}
