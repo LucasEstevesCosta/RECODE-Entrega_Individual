@@ -26,16 +26,16 @@ h5 {
 
 /* MAIN CONTENT */
 /* custom left section */
-.custom-blue-section {
+.custom-left-section {
     background-color: #966C80 !important;
     color: #fff;
     padding: 2rem;
 }
-.custom-blue-section h3 {
+.custom-left-section h3 {
     font-size: 2rem;
     font-weight: bold;
 }
-.custom-blue-section p {
+.custom-left-section p {
     font-size: 1rem;
     line-height: 1.5;
 }
@@ -63,6 +63,7 @@ h5 {
 }
 
 
+
 /*LOGIN PAGE*/
 .bg-body {
     background-color: #f5e4cf !important;
@@ -78,20 +79,20 @@ h5 {
     color: #966C80;
 }
 
-#btnLogin {
+#btn-Login {
     background-color: #966C80 !important;
     color: #96BDA8;
 }
-#btnLogin:hover {
+#btn-Login:hover {
     color: #966C80;
     background-color: #96BDA8 !important;
 }
 
-#btnCancel {
+#btn-Cancel {
     background-color: #cacaca !important;
-    color: #96BDA8;
+    color: #557e68;
 }
-#btnCancel:hover {
+#btn-Cancel:hover {
     background-color: #96BDA8 !important;
     color: #966C80;
 }
