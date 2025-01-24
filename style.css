@@ -98,11 +98,11 @@ h5 {
 }
 
 /* signup icons*/
-.signupIcon {
+.signup-icon {
     color: #966C80;
 }
 /* hover on links */
-.signupIcon:hover {
+.signup-icon:hover {
     background-color: #966C80 !important;
     color: #96BDA8;
 }
