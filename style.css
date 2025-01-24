@@ -1,18 +1,107 @@
+/* NAVBAR */
 .navbar {
-    background-color: #eca36c;
+    background-color: #eca36c !important;
 }
 
+/* links */
 .navbar-nav .nav-link {
     color: #966c80 !important;
 }
 
-/* Para links ativos/hover */
+/* hover on links */
     .navbar-nav .nav-link:hover,
     .navbar-nav .nav-link.active {
     color: white !important;
 }
 
-/* Para o brand/logo */
+/* brand/logo */
 .navbar-brand {
-    color: #966c80 !important;
+    color: #e460a0 !important;
+}
+
+h5 {
+    color: #966C80;
+}
+
+
+/* MAIN CONTENT */
+/* custom left section */
+.custom-blue-section {
+    background-color: #966C80 !important;
+    color: #fff;
+    padding: 2rem;
+}
+.custom-blue-section h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.custom-blue-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+
+/* FOOTER */
+/* footer background*/
+.footer {
+    background-color: #F7D3A3 !important;
+}
+
+/* footer icons*/
+.footer a {
+    color: #966C80;
+}
+/* hover on links */
+.footer a:hover {
+    background-color: #966C80 !important;
+    color: #96BDA8;
+}
+
+#copyrightLink {
+    text-decoration: none;
+}
+
+
+/*LOGIN PAGE*/
+.bg-body {
+    background-color: #f5e4cf !important;
+}
+
+/* LOGIN FORM */
+.login-form {
+    min-height: 100vh;
+}
+
+.bg-login {
+    background-color: whitesmoke !important;
+    color: #966C80;
+}
+
+#btnLogin {
+    background-color: #966C80 !important;
+    color: #96BDA8;
+}
+#btnLogin:hover {
+    color: #966C80;
+    background-color: #96BDA8 !important;
+}
+
+#btnCancel {
+    background-color: #cacaca !important;
+    color: #96BDA8;
+}
+#btnCancel:hover {
+    background-color: #96BDA8 !important;
+    color: #966C80;
+}
+
+/* signup icons*/
+.signupIcon {
+    color: #966C80;
+}
+/* hover on links */
+.signupIcon:hover {
+    background-color: #966C80 !important;
+    color: #96BDA8;
 }
