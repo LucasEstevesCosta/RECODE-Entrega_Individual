@@ -1,3 +1,8 @@
+/* REMOVE DECORATION FROM LINKS */
+a {
+    text-decoration: none !important;
+}
+
 /* NAVBAR */
 .navbar {
     background-color: #eca36c !important;
@@ -36,8 +41,25 @@ h5 {
     font-weight: bold;
 }
 .custom-left-section p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 1.5;
+}
+
+/* CARDS */
+.card {
+    overflow: hidden;
+}
+.card-container {
+    overflow: hidden;
+}
+.card:hover {
+    border: 2px solid #966C80; /* new border color on hover */
+}
+.card img {
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover img {
+    transform: scale(1.2);
 }
 
 
