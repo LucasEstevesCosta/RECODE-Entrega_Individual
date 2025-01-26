@@ -10,6 +10,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="script.js"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- Font Awesome -->
@@ -32,9 +34,13 @@
                             <label class="form-label" for="formInputEmail">E-mail</label>
                         </div>
                         <!-- Password input -->
-                        <div data-mdb-input-init class="form-outline mb-4">
+                        <div data-mdb-input-init class="form-outline mb-4 position-relative">
                             <input type="password" id="formInputPassword" class="form-control" placeholder="digite sua senha aqui"/>
-                            <label class="form-label" for="formInputPassword">Senha</label>
+                            <label class="form-label" for="formInputPassword">Senha
+                                <button type="button" id="togglePassword" class="btn btn-link position-absolute end-0 top-0 visibility-icon" onclick="togglePasswordVisibility()">
+                                    <i class="fa-solid fa-eye"></i>
+                                </button>
+                            </label>
                         </div>
                         <!-- 2 column grid layout for inline styling -->
                         <div class="row mb-4">

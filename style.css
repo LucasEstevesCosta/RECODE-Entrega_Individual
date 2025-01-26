@@ -7,23 +7,19 @@ a {
 .navbar {
     background-color: #eca36c !important;
 }
-
 /* links */
 .navbar-nav .nav-link {
     color: #966c80 !important;
 }
-
 /* hover on links */
     .navbar-nav .nav-link:hover,
     .navbar-nav .nav-link.active {
     color: white !important;
 }
-
 /* brand/logo */
 .navbar-brand {
     color: #e460a0 !important;
 }
-
 h5 {
     color: #966C80;
 }
@@ -69,7 +65,6 @@ h5 {
 .footer {
     background-color: #eca36c !important;
 }
-
 /* footer icons*/
 .footer a {
     color: #966C80;
@@ -79,7 +74,6 @@ h5 {
     background-color: #966C80 !important;
     color: #96BDA8;
 }
-
 #copyrightLink {
     text-decoration: none;
 }
@@ -90,12 +84,10 @@ h5 {
 .bg-body {
     background-color: #f5e4cf !important;
 }
-
 /* LOGIN FORM */
 .login-form {
     min-height: 100vh;
 }
-
 .bg-login {
     background-color: whitesmoke !important;
     color: #966C80;
@@ -109,7 +101,6 @@ h5 {
     color: #966C80;
     background-color: #96BDA8 !important;
 }
-
 #btn-Cancel {
     background-color: #cacaca !important;
     color: #557e68;
@@ -133,3 +124,29 @@ h5 {
     color: #96BDA8;
 }
 
+/* password visibility button */
+.visibility-icon {
+    color: #966C80;
+}
+.visibility-icon:hover {
+    color: #96BDA8;
+}
+/* switch color on active */
+#togglePassword.active {
+    color: #96BDA8 !important;
+}
+/* the following style is to remove an visual artifact tha was apearing whn the password visibility button was clicked */
+#togglePassword::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff; /* or the background color of your button */
+}
+/* the following style is to make the icon appear on top of the password visibility button */
+#togglePassword i {
+    position: relative;
+    z-index: 1;
+}
