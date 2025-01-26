@@ -119,6 +119,10 @@ h5 {
     color: #966C80;
 }
 
+::placeholder {
+    color: #bdbaba !important;
+}
+
 /* signup icons*/
 .signup-icon {
     color: #966C80;
