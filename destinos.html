@@ -96,110 +96,101 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+
     <!-- MAIN CONTENT -->
     <main class="container MainContent py-4">
-        <div class="container-fluid">
-            <!-- main row -->
-            <div class="row">
-                <!-- column with sidebar -->
-                <div class="col-md-2 sidebar">
-                    <div class="sidebar-sticky">
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Opção 1
-                                    </label>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Opção 2
-                                    </label>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled">
-                                    <label class="form-check-label" for="flexCheckDisabled">
-                                        Opção 3
-                                    </label>
-                                </div>
-                            </li>
-                        </ul>
+        <div class="row" id="destinos">
+            <!-- side menu -->
+            <div class="col-xl-3 col-lg-4 col-md-12 mb-4 min-h-100 custom-left-section">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Opção 1
+                                </label>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheckChecked">
+                                    Opção 2
+                                </label>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled">
+                                <label class="form-check-label" for="flexCheckDisabled">
+                                    Opção 3
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- cards -->
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-4 min-h-100">
+                <a href="#" alt="">
+                    <div class="card w-100 h-100">
+                        <div class="div card-container">
+                            <img src="img/canada-aurora-1.jpg" class="card-img-top"
+                                alt="imagem da aurora vista nos céus do Canadá">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Canadá</h5>
+                            <p class="card-text text-center">Hospedagem em Vancouver e Whitehorse, 2 ou 3 noites de
+                                observação das auroras, assistência, bebidas quentes não alcoólicas e petiscos,
+                                guia-motorista que fala inglês, Certificado das Auroras Boreais e traslados.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-4 min-h-100">
+                <a href="#" alt="">
+                    <div class="card w-100 h-100">
+                        <div class="div card-container">
+                            <img src="img/patagonia-chilena-1.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Patagônia Chilena</h5>
+                            <p class="card-text text-center">Passagem aérea, hospedagem em Santiago, Punta Arenas e
+                                Puerto Natales com café da manhã, passeio pelas cidades de Santiago e Punta Arenas,
+                                passeio ao Parque Nacional Torres del Paine e Caverna Milodon, traslados.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-4 min-h-100">
+                <div class="card w-100 h-100">
+                    <div class="div card-container">
+                        <img src="..." class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Card title</h5>
+                        <p class="card-text text-center">Some quick example text to build on the card title and make up
+                            the bulk of the card's content.</p>
                     </div>
                 </div>
-                <!-- column with cards   -->
-                <div class="col-md-10 ml-sm-auto px-4">
-                    <!-- cards   -->
-                    <div class="row" id="destinos">
-                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-4 min-h-100">
-                            <a href="#" alt="">
-                                <div class="card w-100 h-100">
-                                    <div class="div card-container">
-                                        <img src="img/canada-aurora-1.jpg" class="card-img-top"
-                                            alt="imagem da aurora vista nos céus do Canadá">
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center">Canadá</h5>
-                                        <p class="card-text text-center">Hospedagem em Vancouver e Whitehorse, 2 ou 3
-                                            noites de observação das auroras, assistência, bebidas quentes não
-                                            alcoólicas e petiscos, guia-motorista que fala inglês, Certificado das
-                                            Auroras Boreais e traslados.</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-4 min-h-100">
-                            <a href="#" alt="">
-                                <div class="card w-100 h-100">
-                                    <div class="div card-container">
-                                        <img src="img/patagonia-chilena-1.jpg" class="card-img-top" alt="...">
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title text-center">Patagônia Chilena</h5>
-                                        <p class="card-text text-center">Passagem aérea, hospedagem em Santiago, Punta
-                                            Arenas e Puerto Natales com café da manhã, passeio pelas cidades de Santiago
-                                            e Punta Arenas, passeio ao Parque Nacional Torres del Paine e Caverna
-                                            Milodon, traslados.</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-4 min-h-100">
-                            <div class="card w-100 h-100">
-                                <div class="div card-container">
-                                    <img src="..." class="card-img-top" alt="...">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title text-center">Card title</h5>
-                                    <p class="card-text text-center">Some quick example text to build on the card title
-                                        and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-4 min-h-100">
-                            <div class="card w-100 h-100">
-                                <div class="div card-container">
-                                    <img src="img/safari-moditlo-1.jpg" class="card-img-top" alt="...">
-                                </div>
-                                <div class="card-body">
-                                    <h5 class="card-title text-center">Safari Moditlo</h5>
-                                    <p class="card-text text-center">Hospedagem em Johannesburg, Reserva Privada na
-                                        Região do Kruger Park e Cape Town, 4 safaris, traslados e passeios privativos
-                                        com guia em português incluindo Cabo da Boa Esperança e Região das Vinícolas.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-4 min-h-100">
+                <div class="card w-100 h-100">
+                    <div class="div card-container">
+                        <img src="img/safari-moditlo-1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Safari Moditlo</h5>
+                        <p class="card-text text-center">Hospedagem em Johannesburg, Reserva Privada na Região do Kruger
+                            Park e Cape Town, 4 safaris, traslados e passeios privativos com guia em português incluindo
+                            Cabo da Boa Esperança e Região das Vinícolas.</p>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
     <!-- FOOTER -->
     <footer class="text-center footer bg-light">
         <h5 class="pt-4">Siga-nos em nossas redes sociais!</h5>
