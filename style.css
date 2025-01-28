@@ -1,4 +1,11 @@
 /* REMOVE DECORATION FROM LINKS */
+:root {
+    --main-color: #966C80;
+    --secondary-color: #eca36c;
+    --terciary-color: #96BDA8;
+    --background-color-main: #fff;
+}
+
 a {
     text-decoration: none !important;
 }
@@ -9,18 +16,18 @@ a {
 
 /* NAVBAR */
 .navbar {
-    background-color: #eca36c !important;
+    background-color: var(--secondary-color) !important;
 }
 
 /* links */
 .navbar-nav .nav-link {
-    color: #966c80 !important;
+    color: var(--main-color) !important;
 }
 
 /* hover on links */
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-    color: white !important;
+    color: var(--background-color-main) !important;
 }
 
 /* brand/logo */
@@ -29,15 +36,15 @@ a {
 }
 
 h5 {
-    color: #966C80;
+    color: var(--main-color);
 }
 
 
 /* MAIN CONTENT */
 /* custom left section */
 .custom-left-section {
-    background-color: #966C80 !important;
-    color: #fff;
+    background-color: var(--main-color) !important;
+    color: var(--background-color-main);
     padding: 2rem;
 }
 
@@ -52,7 +59,7 @@ h5 {
 }
 
 .full-bleed {
-    box-shadow: 0 0 0 100vmax #966C80;
+    box-shadow: 0 0 0 100vmax var(--main-color);
     clip-path: inset(0 0 0 -100vmax);
 }
 
@@ -66,7 +73,7 @@ h5 {
 }
 
 .card:hover {
-    border: 2px solid #966C80;
+    border: 2px solid var(--main-color);
     /* new border color on hover */
 }
 
@@ -83,18 +90,18 @@ h5 {
 /* FOOTER */
 /* footer background*/
 .footer {
-    background-color: #eca36c !important;
+    background-color: var(--secondary-color) !important;
 }
 
 /* footer icons*/
 .footer a {
-    color: #966C80;
+    color: var(--main-color);
 }
 
 /* hover on links */
 .footer a:hover {
-    background-color: #966C80 !important;
-    color: #96BDA8;
+    background-color: var(--main-color) !important;
+    color: var(--terciary-color);
 }
 
 #copyrightLink {
@@ -115,17 +122,17 @@ h5 {
 
 .bg-login {
     background-color: rgb(238, 236, 229) !important;
-    color: #966C80;
+    color: var(--main-color);
 }
 
 #btn-Login {
-    background-color: #966C80 !important;
-    color: #96BDA8;
+    background-color: var(--main-color) !important;
+    color: var(--terciary-color);
 }
 
 #btn-Login:hover {
-    color: #966C80;
-    background-color: #96BDA8 !important;
+    color: var(--main-color);
+    background-color: var(--terciary-color) !important;
 }
 
 #btn-Cancel {
@@ -134,8 +141,8 @@ h5 {
 }
 
 #btn-Cancel:hover {
-    background-color: #96BDA8 !important;
-    color: #966C80;
+    background-color: var(--terciary-color) !important;
+    color: var(--main-color);
 }
 
 ::placeholder {
@@ -144,27 +151,27 @@ h5 {
 
 /* signup icons*/
 .signup-icon {
-    color: #966C80;
+    color: var(--main-color);
 }
 
 /* hover on links */
 .signup-icon:hover {
-    background-color: #966C80 !important;
-    color: #96BDA8;
+    background-color: var(--main-color) !important;
+    color: var(--terciary-color);
 }
 
 /* password visibility button */
 .visibility-icon {
-    color: #966C80;
+    color: var(--main-color);
 }
 
 .visibility-icon:hover {
-    color: #96BDA8;
+    color: var(--terciary-color);
 }
 
 /* switch color on active */
 #togglePassword.active {
-    color: #96BDA8 !important;
+    color: var(--terciary-color) !important;
 }
 
 /* the following style is to remove an visual artifact tha was apearing whn the password visibility button was clicked */
@@ -175,7 +182,7 @@ h5 {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #fff;
+    background-color: var(--background-color-main);
     /* or the background color of your button */
 }
 
@@ -188,13 +195,13 @@ h5 {
 /* SIGNUP PAGE */
 /* form-check - gender choice */
 .form-check-input {
-    background-color: #fff;
-    border-color: #966C80;
+    background-color: var(--background-color-main);
+    border-color: var(--main-color);
 }
 
 .form-check-input:checked {
-    background-color: #966C80;
-    border-color: #96BDA8;
+    background-color: var(--main-color);
+    border-color: var(--terciary-color);
 }
 
 .justify-text {
