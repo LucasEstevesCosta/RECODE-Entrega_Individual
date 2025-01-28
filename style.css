@@ -191,3 +191,7 @@ h5 {
     background-color: #966C80;
     border-color: #96BDA8;
 }
+
+.justify-text {
+    text-align: justify;
+}
