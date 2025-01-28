@@ -47,8 +47,13 @@ h5 {
 }
 
 .custom-left-section p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     line-height: 1.5;
+}
+
+.full-bleed {
+    box-shadow: 0 0 0 100vmax #966C80;
+    clip-path: inset(0 0 0 -100vmax);
 }
 
 /* CARDS */
