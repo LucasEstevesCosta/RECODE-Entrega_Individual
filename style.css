@@ -3,6 +3,10 @@ a {
     text-decoration: none !important;
 }
 
+.no-link-color {
+    color: inherit;
+}
+
 /* NAVBAR */
 .navbar {
     background-color: #eca36c !important;
