@@ -19,6 +19,12 @@ a {
     background-color: var(--secondary-color) !important;
 }
 
+.logo {
+    width: 90px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    filter: invert(49%) sepia(11%) saturate(927%) hue-rotate(279deg) brightness(92%) contrast(92%); /* Change the color using css filter */
+}
+
 /* links */
 .navbar-nav .nav-link {
     color: var(--main-color) !important;
