@@ -213,3 +213,14 @@ h5 {
 .justify-text {
     text-align: justify;
 }
+
+/* OVERRIDES */
+.btn-primary {
+    background-color: var(--main-color) !important;
+    color: var(--terciary-color);
+    border: none;
+}
+.btn-primary:hover {
+    color: var(--main-color);
+    background-color: var(--terciary-color) !important;
+}
