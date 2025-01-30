@@ -1,16 +1,11 @@
 # PROJETO RECODE - Entrega Individual
-
 ## Descrição do Projeto
- Projeto de agência de viagens para entrega individual do RECODE PRO AI 2025. O projeto é de uma site de viagens.
+ Projeto de agência de viagens para entrega individual do RECODE PRO AI 2025. O site desenvolvido no projeto em questão é para uma agência de viagens para o exterior.
 
-### Nome da agência de viagens
-Propósito e público-alvo do site Visão geral dos principais recursos planejados
-
- O site desenvolvido no projeto em questão é para uma agência de viagens para o exterior. O desenvolvimento optou por dar prioridade para um visual agradável ao usuário.
+O nome da marca, Con Air, é uma referência a um filme de ação que tem uma viagem de avião como cenário principal. Uma preferência pessoal do desenvolvedor devido a um lapso de criatividade temporário.
 
  O público alvo são pessoas com capital para poder visitar atrações estrangeiras por um período de tempo.
 
- O nome da marca foi uma referência a um filme que tinha uma viagem de avião como cenário principal. Uma preferência pessoal do desenvolvedor.
 
 ## Estrutura do Projeto
 ### Arquivos Principais
