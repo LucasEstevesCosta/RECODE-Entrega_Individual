@@ -1,4 +1,6 @@
 # PROJETO RECODE - Entrega Individual
+deploy para fácil visualização do projeto: https://recode-agenciadeviagens.vercel.app/index.html
+
 ## Descrição do Projeto
  Projeto de agência de viagens para entrega individual do RECODE PRO AI 2025. O site desenvolvido no projeto em questão é para uma agência de viagens para o exterior.
 
